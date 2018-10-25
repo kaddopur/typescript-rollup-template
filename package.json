@@ -1,0 +1,24 @@
+{
+  "name": "typescript-rollup-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^0.66.6",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-typescript2": "^0.17.1",
+    "typescript": "^3.1.3"
+  }
+}
